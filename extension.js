@@ -83,7 +83,9 @@ function activate(context) {
 											}
 
 											vscode.workspace.openTextDocument(fileOptions).then((document) => {
-												console.log(document)
+												vscode.window.showTextDocument(document).then((document) => {
+													vscode.commands.executeCommand("editor.action.formatDocument")
+												})
 											});
 										})
 										.catch(error => console.log('error', error));
