@@ -1,4 +1,4 @@
-# stac README
+# stac-vscode-extension
 
 This is a [Visual Studio Code](https://code.visualstudio.com/) extension for retrieving metadata from a [SpatioTemporal Asset Catalog](https://stacspec.org/en).
 
